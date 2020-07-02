@@ -1,0 +1,47 @@
+.nav{
+    padding: 0 0 0 170px;
+    box-shadow: 0 1px 20px 1px rgba(0,0,0,.1);
+    background-color: white;
+}
+.nav-logo{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    min-width: 70px;
+    min-height: 70px;
+}
+.nav-logo img{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: 70%;
+    height: 70%;
+}
+.nav-list{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    margin-left: 20px;
+    font-size: 1.3em;
+
+}
+.nav-list > span{
+    margin: 0 20px;
+    line-height: 70px;
+    transition: all .5s;
+}
+.nav-list > span > a{
+    color: rgba(0, 0, 0, 0.65) !important;
+    white-space: nowrap;
+}
+.nav-list > span :hover{
+    color: salmon !important;
+    transition: all .5s;
+}
+.antdMenuNode > i{
+    position: absolute;
+    right: 10px;
+}
+.antdMenuNode > span{
+    display: inline-block;
+}

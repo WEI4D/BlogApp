@@ -1,0 +1,80 @@
+.recent-wrapper .ant-timeline {
+    padding: 40px 175px;
+}
+.circle-model{
+    position: relative;
+    display: inline-block;
+}
+.ant-timeline-item-head-gray{
+    border-color: gray;
+}
+.circle-model-wrapper{
+    position: fixed;
+    top: 80px;
+    left: 60%;
+}
+.circle-model-wrapper-red::after{
+    content: "警告";
+    margin-left: 10px;
+}
+.circle-model-wrapper-green::after{
+    content: "已完成";
+    margin-left: 10px;
+}
+.circle-model-wrapper-blue::after{
+    content: "开拓中";
+    margin-left: 10px;
+}
+.circle-model-wrapper-gray::after{
+    content: "未完成";
+    margin-left: 10px;
+}
+.timeline-publish-time{
+    color: olivedrab;
+    font-size: 1.5em;
+    line-height: .9em;
+}
+@media screen and (max-width: 615px) {
+    .recent-wrapper .ant-timeline{
+        padding: 40px 25px;
+    }
+    .circle-model-wrapper{
+        right: 25px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .recent-wrapper .ant-timeline{
+        margin: 0 auto;
+        padding: 40px 25px;
+    }
+    .circle-model-wrapper{
+        right: 25px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .recent-wrapper .ant-timeline{
+        margin: 0 auto;
+        padding: 40px 55px;
+    }
+    .circle-model-wrapper{
+        right: 55px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .recent-wrapper .ant-timeline{
+        margin: 0 auto;
+        padding: 40px 25px;
+    }
+    .circle-model-wrapper{
+        right: 25px;
+    }
+}
+@media screen and (width: 768px) {
+    .recent-wrapper .ant-timeline{
+        margin: 0 auto;
+        padding: 40px 145px;
+    }
+    .circle-model-wrapper{
+        right: 145px;
+    }
+}

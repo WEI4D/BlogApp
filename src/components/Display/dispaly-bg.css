@@ -1,0 +1,148 @@
+.part-one{
+    background-image: linear-gradient(190deg, rgba(64, 255, 0, 0.2), rgba(64, 0, 255, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(0, 0, 255, 0.2), rgba(0, 0, 0, 0) 30%, rgba(0, 0, 255, 0.2) 30%, rgba(0, 255, 0, 0.1) 60%), linear-gradient(90deg, rgb(75, 0, 130), rgb(65, 105, 225), rgb(60, 179, 113));
+    background-color: rgb(93, 39, 223);
+}
+
+.part-two{
+    background-image: linear-gradient(190deg, rgba(255, 0, 0, .5), rgba(255, 0, 0, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(255, 64, 64, 1), rgba(255, 115, 115, 1) 30%, rgba(255, 115, 115, 0.5) 30%, rgba(255, 115, 115,1) 60%), linear-gradient(90deg, rgb(255, 115, 115), rgb(166, 0, 0), rgb(255, 0, 0));
+    background-color: rgb(255, 0, 0);
+}
+
+.part-third{
+    background-image: linear-gradient(190deg, rgba(69, 3, 111, .5), rgba(69, 3, 111, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(108, 10, 171, 1), rgba(170, 103, 213, 1) 30%, rgba(170, 103, 213, 0.5) 30%, rgba(170, 103, 213,1) 60%), linear-gradient(90deg, rgb(170, 103, 213), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+
+.part-four{
+    background-image: linear-gradient(190deg, rgba(7, 24, 113, .5), rgba(7, 24, 113, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(22, 46, 174, 1), rgba(112, 128, 215, 1) 30%, rgba(112, 128, 215, 0.5) 30%, rgba(112, 128, 215,1) 60%), linear-gradient(90deg, rgb(112, 128, 215), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+.part-five{
+    background-image: linear-gradient(190deg, rgba(64, 255, 0, 0.2), rgba(64, 0, 255, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(0, 0, 255, 0.2), rgba(0, 0, 0, 0) 30%, rgba(0, 0, 255, 0.2) 30%, rgba(0, 255, 0, 0.1) 60%), linear-gradient(90deg, rgb(75, 0, 130), rgb(65, 105, 225), rgb(60, 179, 113));
+    background-color: rgb(93, 39, 223);
+}
+
+.part-six{
+    background-image: linear-gradient(190deg, rgba(255, 0, 0, .5), rgba(255, 0, 0, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(255, 64, 64, 1), rgba(255, 115, 115, 1) 30%, rgba(255, 115, 115, 0.5) 30%, rgba(255, 115, 115,1) 60%), linear-gradient(90deg, rgb(255, 115, 115), rgb(166, 0, 0), rgb(255, 0, 0));
+    background-color: rgb(255, 0, 0);
+}
+
+.part-seven{
+    background-image: linear-gradient(190deg, rgba(69, 3, 111, .5), rgba(69, 3, 111, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(108, 10, 171, 1), rgba(170, 103, 213, 1) 30%, rgba(170, 103, 213, 0.5) 30%, rgba(170, 103, 213,1) 60%), linear-gradient(90deg, rgb(170, 103, 213), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+
+.part-eight{
+    background-image: linear-gradient(190deg, rgba(7, 24, 113, .5), rgba(7, 24, 113, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(22, 46, 174, 1), rgba(112, 128, 215, 1) 30%, rgba(112, 128, 215, 0.5) 30%, rgba(112, 128, 215,1) 60%), linear-gradient(90deg, rgb(112, 128, 215), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+.part-nine{
+    background-image: linear-gradient(190deg, rgba(64, 255, 0, 0.2), rgba(64, 0, 255, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(0, 0, 255, 0.2), rgba(0, 0, 0, 0) 30%, rgba(0, 0, 255, 0.2) 30%, rgba(0, 255, 0, 0.1) 60%), linear-gradient(90deg, rgb(75, 0, 130), rgb(65, 105, 225), rgb(60, 179, 113));
+    background-color: rgb(93, 39, 223);
+}
+
+.part-ten{
+    background-image: linear-gradient(190deg, rgba(255, 0, 0, .5), rgba(255, 0, 0, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(255, 64, 64, 1), rgba(255, 115, 115, 1) 30%, rgba(255, 115, 115, 0.5) 30%, rgba(255, 115, 115,1) 60%), linear-gradient(90deg, rgb(255, 115, 115), rgb(166, 0, 0), rgb(255, 0, 0));
+    background-color: rgb(255, 0, 0);
+}
+
+.part-eleven{
+    background-image: linear-gradient(190deg, rgba(69, 3, 111, .5), rgba(69, 3, 111, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(108, 10, 171, 1), rgba(170, 103, 213, 1) 30%, rgba(170, 103, 213, 0.5) 30%, rgba(170, 103, 213,1) 60%), linear-gradient(90deg, rgb(170, 103, 213), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+
+.part-twelve{
+    background-image: linear-gradient(190deg, rgba(7, 24, 113, .5), rgba(7, 24, 113, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(22, 46, 174, 1), rgba(112, 128, 215, 1) 30%, rgba(112, 128, 215, 0.5) 30%, rgba(112, 128, 215,1) 60%), linear-gradient(90deg, rgb(112, 128, 215), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+.part-thirteen{
+    background-image: linear-gradient(190deg, rgba(64, 255, 0, 0.2), rgba(64, 0, 255, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(0, 0, 255, 0.2), rgba(0, 0, 0, 0) 30%, rgba(0, 0, 255, 0.2) 30%, rgba(0, 255, 0, 0.1) 60%), linear-gradient(90deg, rgb(75, 0, 130), rgb(65, 105, 225), rgb(60, 179, 113));
+    background-color: rgb(93, 39, 223);
+}
+
+.part-fourteen{
+    background-image: linear-gradient(190deg, rgba(255, 0, 0, .5), rgba(255, 0, 0, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(255, 64, 64, 1), rgba(255, 115, 115, 1) 30%, rgba(255, 115, 115, 0.5) 30%, rgba(255, 115, 115,1) 60%), linear-gradient(90deg, rgb(255, 115, 115), rgb(166, 0, 0), rgb(255, 0, 0));
+    background-color: rgb(255, 0, 0);
+}
+
+.part-fifteen{
+    background-image: linear-gradient(190deg, rgba(69, 3, 111, .5), rgba(69, 3, 111, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(108, 10, 171, 1), rgba(170, 103, 213, 1) 30%, rgba(170, 103, 213, 0.5) 30%, rgba(170, 103, 213,1) 60%), linear-gradient(90deg, rgb(170, 103, 213), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+
+.part-sixteen{
+    background-image: linear-gradient(190deg, rgba(7, 24, 113, .5), rgba(7, 24, 113, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(22, 46, 174, 1), rgba(112, 128, 215, 1) 30%, rgba(112, 128, 215, 0.5) 30%, rgba(112, 128, 215,1) 60%), linear-gradient(90deg, rgb(112, 128, 215), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+.part-seventeen{
+    background-image: linear-gradient(190deg, rgba(64, 255, 0, 0.2), rgba(64, 0, 255, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(0, 0, 255, 0.2), rgba(0, 0, 0, 0) 30%, rgba(0, 0, 255, 0.2) 30%, rgba(0, 255, 0, 0.1) 60%), linear-gradient(90deg, rgb(75, 0, 130), rgb(65, 105, 225), rgb(60, 179, 113));
+    background-color: rgb(93, 39, 223);
+}
+
+.part-eighteen{
+    background-image: linear-gradient(190deg, rgba(255, 0, 0, .5), rgba(255, 0, 0, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(255, 64, 64, 1), rgba(255, 115, 115, 1) 30%, rgba(255, 115, 115, 0.5) 30%, rgba(255, 115, 115,1) 60%), linear-gradient(90deg, rgb(255, 115, 115), rgb(166, 0, 0), rgb(255, 0, 0));
+    background-color: rgb(255, 0, 0);
+}
+
+.part-nineteen{
+    background-image: linear-gradient(190deg, rgba(69, 3, 111, .5), rgba(69, 3, 111, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(108, 10, 171, 1), rgba(170, 103, 213, 1) 30%, rgba(170, 103, 213, 0.5) 30%, rgba(170, 103, 213,1) 60%), linear-gradient(90deg, rgb(170, 103, 213), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+
+.part-twenty{
+    background-image: linear-gradient(190deg, rgba(7, 24, 113, .5), rgba(7, 24, 113, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(22, 46, 174, 1), rgba(112, 128, 215, 1) 30%, rgba(112, 128, 215, 0.5) 30%, rgba(112, 128, 215,1) 60%), linear-gradient(90deg, rgb(112, 128, 215), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+.part-twenty-one{
+    background-image: linear-gradient(190deg, rgba(64, 255, 0, 0.2), rgba(64, 0, 255, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(0, 0, 255, 0.2), rgba(0, 0, 0, 0) 30%, rgba(0, 0, 255, 0.2) 30%, rgba(0, 255, 0, 0.1) 60%), linear-gradient(90deg, rgb(75, 0, 130), rgb(65, 105, 225), rgb(60, 179, 113));
+    background-color: rgb(93, 39, 223);
+}
+
+.part-twenty-two{
+    background-image: linear-gradient(190deg, rgba(255, 0, 0, .5), rgba(255, 0, 0, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(255, 64, 64, 1), rgba(255, 115, 115, 1) 30%, rgba(255, 115, 115, 0.5) 30%, rgba(255, 115, 115,1) 60%), linear-gradient(90deg, rgb(255, 115, 115), rgb(166, 0, 0), rgb(255, 0, 0));
+    background-color: rgb(255, 0, 0);
+}
+
+.part-twenty-three{
+    background-image: linear-gradient(190deg, rgba(69, 3, 111, .5), rgba(69, 3, 111, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(108, 10, 171, 1), rgba(170, 103, 213, 1) 30%, rgba(170, 103, 213, 0.5) 30%, rgba(170, 103, 213,1) 60%), linear-gradient(90deg, rgb(170, 103, 213), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+
+.part-twenty-four{
+    background-image: linear-gradient(190deg, rgba(7, 24, 113, .5), rgba(7, 24, 113, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(22, 46, 174, 1), rgba(112, 128, 215, 1) 30%, rgba(112, 128, 215, 0.5) 30%, rgba(112, 128, 215,1) 60%), linear-gradient(90deg, rgb(112, 128, 215), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+.part-twenty-five{
+    background-image: linear-gradient(190deg, rgba(64, 255, 0, 0.2), rgba(64, 0, 255, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(0, 0, 255, 0.2), rgba(0, 0, 0, 0) 30%, rgba(0, 0, 255, 0.2) 30%, rgba(0, 255, 0, 0.1) 60%), linear-gradient(90deg, rgb(75, 0, 130), rgb(65, 105, 225), rgb(60, 179, 113));
+    background-color: rgb(93, 39, 223);
+}
+
+.part-twenty-six{
+    background-image: linear-gradient(190deg, rgba(255, 0, 0, .5), rgba(255, 0, 0, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(255, 64, 64, 1), rgba(255, 115, 115, 1) 30%, rgba(255, 115, 115, 0.5) 30%, rgba(255, 115, 115,1) 60%), linear-gradient(90deg, rgb(255, 115, 115), rgb(166, 0, 0), rgb(255, 0, 0));
+    background-color: rgb(255, 0, 0);
+}
+
+.part-twenty-seven{
+    background-image: linear-gradient(190deg, rgba(69, 3, 111, .5), rgba(69, 3, 111, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(108, 10, 171, 1), rgba(170, 103, 213, 1) 30%, rgba(170, 103, 213, 0.5) 30%, rgba(170, 103, 213,1) 60%), linear-gradient(90deg, rgb(170, 103, 213), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+
+.part-twenty-eight{
+    background-image: linear-gradient(190deg, rgba(7, 24, 113, .5), rgba(7, 24, 113, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(22, 46, 174, 1), rgba(112, 128, 215, 1) 30%, rgba(112, 128, 215, 0.5) 30%, rgba(112, 128, 215,1) 60%), linear-gradient(90deg, rgb(112, 128, 215), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+.part-twenty-nine{
+    background-image: linear-gradient(190deg, rgba(64, 255, 0, 0.2), rgba(64, 0, 255, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(0, 0, 255, 0.2), rgba(0, 0, 0, 0) 30%, rgba(0, 0, 255, 0.2) 30%, rgba(0, 255, 0, 0.1) 60%), linear-gradient(90deg, rgb(75, 0, 130), rgb(65, 105, 225), rgb(60, 179, 113));
+    background-color: rgb(93, 39, 223);
+}
+
+.part-thirty{
+    background-image: linear-gradient(190deg, rgba(255, 0, 0, .5), rgba(255, 0, 0, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(255, 64, 64, 1), rgba(255, 115, 115, 1) 30%, rgba(255, 115, 115, 0.5) 30%, rgba(255, 115, 115,1) 60%), linear-gradient(90deg, rgb(255, 115, 115), rgb(166, 0, 0), rgb(255, 0, 0));
+    background-color: rgb(255, 0, 0);
+}
+
+.part-thirty-one{
+    background-image: linear-gradient(190deg, rgba(69, 3, 111, .5), rgba(69, 3, 111, 0.5)), repeating-radial-gradient(circle at 100% 120%, rgba(108, 10, 171, 1), rgba(170, 103, 213, 1) 30%, rgba(170, 103, 213, 0.5) 30%, rgba(170, 103, 213,1) 60%), linear-gradient(90deg, rgb(170, 103, 213), rgb(154, 63, 213), rgb(108, 10, 171));
+    background-color: rgb(69, 3, 111);
+}
+

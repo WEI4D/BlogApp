@@ -1,0 +1,119 @@
+.note{
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    -webkit-animation: fade-in .5s;
+    animation: fade-in;
+    animation-duration: .5s;
+    padding: 20px 160px;
+}
+.note-title{
+    font-size: 14px;
+    position: relative;
+    margin: 10px auto;
+    padding: 0 30px;
+    color: #5f5f5f;
+    box-sizing: border-box;
+}
+.note-title::before{
+    content: '#';
+    color: salmon;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.note-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.note-list-block{
+    float: left;
+    width: 47%;
+    height: auto;
+    padding: 15px;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+.note-list-block:hover{
+    transition: all 0.2s ease-in-out;
+}
+.post-list-block-container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.1);
+    height: 130px;
+    padding: 10px 20px 40px;
+    box-sizing: border-box;
+    transition:all 0.2s;
+}
+.post-list-block-container:hover{
+    box-shadow: 5px 5px 15px rgba(0,0,0,.15);
+    transition:all 0.2s;
+}
+.list-label{
+    position: relative;
+    height: 130px;
+    /*padding: 25px 20px 40px;*/
+    box-sizing: border-box;
+}
+.list-label a{
+    line-height: 17px;
+    word-break: break-all;
+}
+.block-meta-date{
+    color: #5f5f5f;
+    box-sizing: border-box;
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    float: left;
+    text-align: right;
+    text-transform: none;
+}
+.block-meta-logo{
+    display: inline-block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #eaeaea;
+    border-radius: 50%;
+    background-image: url("../../assets/images/notes.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+@media screen and (max-width: 615px) {
+    .note{
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .note{
+        padding: 0 25px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .note{
+        padding: 0 55px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .note{
+        padding: 0 35px;
+    }
+}
+@media screen and (width: 768px) {
+    .note{
+        padding: 0 145px;
+    }
+}

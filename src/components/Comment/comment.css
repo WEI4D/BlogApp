@@ -1,0 +1,203 @@
+@import "../../assets/css/font.css";
+.comment{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    padding: 50px 175px;
+    font-size: 1em;
+}
+.comment-wrapper{
+    flex-shrink: 1;
+    position: relative;
+    padding: 10px 20px;
+    width: 100%;
+    min-height: 160px;
+    border-radius: 10px;
+    background-color: white;
+}
+.comment-input{
+    display: flex;
+    justify-content: space-around;
+    justify-items: start;
+    margin: 0 auto;
+}
+.comment-input input{
+    display: block;
+    width: 33%;
+    height: 24px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    border-bottom: 1px rgba(0, 0, 0, 0.4) dashed;
+    flex-shrink: 1;
+}
+.comment-input input:focus{
+    border-bottom: 1px coral dashed;
+}
+.comment-content{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    height: 65%;
+}
+.comment-content textarea{
+    flex-shrink: 1;
+    width: 150%;
+    height: 70px;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    transition: all 0.5s;
+}
+.comment-content textarea:hover,.comment-content textarea:focus{
+    border: 1px solid coral;
+    box-shadow: 0 0 2px coral;
+    transition: all 0.5s;
+}
+.comment-publish{
+    flex-shrink: 1;
+    padding: 5px 10px;
+    flex-wrap: nowrap;
+    word-wrap: normal;
+    text-align:center;
+    background-color: rgb(247, 247, 247); /* red */
+    border-radius:5px;
+    min-width:50px;
+    color: rgb(120, 120, 120);
+    text-decoration: none;
+    font-size: 1em;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+    outline: none;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    height: 15%;
+    line-height: 15%;
+}
+.comment-publish:hover{
+    color:coral;
+    border: 1px solid coral;
+    transition: all 0.5s;
+}
+input[name='verify']{
+    flex-shrink: 1;
+    position: absolute;
+    bottom: 10px;
+    height: 15%;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    box-shadow: 0 0 2px rgb(120, 120, 120);
+    transition: all 0.5s
+}
+input[name='verify']:hover{
+    box-shadow: 0 0 2px coral;
+    border: 1px solid coral;
+    transition: all 0.5s;
+}
+.comment-list{
+    margin: 20px 0px;
+    position: relative;
+    width: 100%;
+    min-height: 160px;
+    background-color: white;
+}
+.comment-list .info{
+    position: relative;
+    border-bottom: 20px solid rgb(247,247,247);
+}
+.info-wrapper{
+    position: relative;
+    padding: 20px;
+    min-height: 160px;
+}
+.user img{
+    border-radius: 50%;
+}
+.user::after{
+    content: attr(data-name);
+    margin-left: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.info-wrapper p{
+    margin: 15px 0;
+}
+.info-wrapper .publish-date{
+    position: absolute;
+    bottom: 20px;
+}
+.info-wrapper .reply{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin: 0 20px;
+    bottom: 20px;
+    font-size: 1.5em;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.wrapper-back{
+    position: absolute;
+    width: 100%;
+    z-index: -5;
+}
+.rotate-on{
+    transform: rotateX(180deg);
+    z-index: 4;
+    transition: all 0.5s;
+}
+.rotate-off{
+    transform: rotateX(0deg);
+    transition: all 0.5s;
+}
+.info-wrapper .publish{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*background-color: blanchedalmond;*/
+    width: 100%;
+    height: 160px;
+    transform: rotateX(180deg);
+    z-index: -4;
+}
+.info-wrapper .publish-children{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*background-color: blanchedalmond;*/
+    width: 100%;
+    height: 160px;
+    transform: rotateX(180deg);
+    z-index: -4;
+}
+.ant-badge{
+    width: 100%;
+    height: 160px;
+    cursor:pointer;
+}
+.info p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.children-mark{
+    border-left: 10px solid brown;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+@media screen and (max-width: 615px) {
+    .comment{
+        padding: 20px 15px;
+    }
+    .comment-input input{
+        flex-wrap: wrap;
+    }
+
+}

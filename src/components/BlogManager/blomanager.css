@@ -1,0 +1,25 @@
+@import '~antd/dist/antd.css';
+section.ant-layout{
+    height: 100%;
+}
+.ant-layout-header i{
+    margin: 0 20px;
+}
+.ant-layout-header i svg{
+    font-size: 20px;
+}
+#root{
+    min-height: 100%;
+}
+.root-root{
+    height: 100%;
+}
+.ant-layout-content{
+    min-height: 1000px !important;
+    max-height: fit-content !important;
+}
+.anticon.anticon-menu-unfold.trigger{
+    /*display: none;*/
+}
+
+

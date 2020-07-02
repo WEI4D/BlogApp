@@ -1,0 +1,60 @@
+.aside{
+    position: absolute;
+    top: 0;
+    right: -100%;
+    padding: 10px 10px;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    box-shadow: -5px 0 50px -25px rgba(0,0,0,.2);
+    z-index: 100;
+    display: none;
+}
+.aside > ul,li{ margin:0; padding:0; list-style: square; }
+.aside > ul{
+    padding:10px 0 0 20px;
+}
+.aside > ul > li{
+    margin-bottom: 20px;
+}
+.aside > ul > li > a{
+    color: rgba(0,0,0,0.65);
+    transition: all .5s;
+}
+.aside > ul > li > a:hover{
+    color: salmon;
+    transition: all .5s;
+}
+.poem{
+    POSITION: absolute;
+    BOTTOM: 0;
+    transform: rotateY(180deg);
+}
+.aside-on{
+    animation: aside-on .5s forwards;
+    display: block !important;
+}
+.aside-off{
+    animation: aside-off .5s forwards;
+    display: none;
+}
+@keyframes aside-on {
+    from{
+        right: -100%;
+        visibility: hidden;
+    }
+    to{
+        right: 0;
+        visibility: visible;
+    }
+}
+@keyframes aside-off {
+    from{
+        right: 0;
+        visibility: visible;
+    }
+    to{
+        right: -100%;
+        visibility: hidden;
+    }
+}

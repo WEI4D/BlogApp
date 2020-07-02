@@ -1,0 +1,32 @@
+.add-music{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.add-music > .ant-input{
+    display: block;
+    margin: 20px 0%;
+    width: 100%;
+}
+.add-music > input[name='singer']{
+    margin-top: 0;
+}
+.add-music .avatar-uploader{
+    margin: 20px 0px;
+}
+.add-music .ant-upload.ant-upload-select.ant-upload-select-picture-card{
+    margin: 20px 0%;
+    width: 100%;
+}
+.add-music .ant-btn{
+    /*margin: 20px 0%;*/
+    width: 100%;
+}
+.add-music .ant-upload.ant-upload-select.ant-upload-select-text{
+    margin: 0 0;
+}
+/*.add-music .publish-button{*/
+    /*background-color: tomato;*/
+    /*color: #fff;*/
+/*}*/
+

@@ -1,0 +1,11 @@
+.ant-upload.ant-upload-select-picture-card{
+    width: 57px;
+    height: 57px;
+}
+div.ant-upload-text{
+    display: none;
+}
+.ant-upload .ant-btn {
+    width: 95%;
+    height: 30px;
+}

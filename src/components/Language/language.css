@@ -1,0 +1,98 @@
+.language-wrapper{
+    position: fixed;
+    top: 10vh;
+    right: 50px;
+}
+.language{
+    width: 100px;
+    height: 100px;
+    transform-origin: center top;
+}
+.lantern{
+    position: relative;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    background-image: url("./lantern.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 105;
+}
+.light{
+    position: relative;
+    top: -50px;
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-bottom-width: 80px;
+    border-bottom-style: solid;
+    border-bottom-color: coral;
+    transform: translateY(-40px);
+    border-radius: 50%;
+    z-index: 95;
+}
+.mask{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+    background-color: #fff;
+    z-index: 100;
+    border-radius: 50%;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+    /* transform: skew(10deg, 10deg); */
+    /* opacity: .5; */
+    height: 18px;
+    transform: translate(-17px,15px);
+    width: 35px;
+}
+.change{
+    position: absolute;
+    bottom: 27px;
+    left: 50%;
+    transform: translate(-50%,0);
+    /*background-image: url("./CNS_EN.png");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    z-index: 100;
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
+}
+@keyframes fly-lantern {
+    0%{
+        transform: rotate(-10deg);
+    }
+    50%{
+        transform: rotate(-5deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
+}
+@media screen and (max-width: 615px) {
+    .language-wrapper{
+        right: 5px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .language-wrapper{
+        right: 5px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .language-wrapper{
+        right: 5px;
+    }
+}
+@media screen and (width: 768px) {
+    .language-wrapper{
+        right: 15px;
+    }
+}

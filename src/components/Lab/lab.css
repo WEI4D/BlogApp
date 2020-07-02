@@ -1,0 +1,30 @@
+.table-wrapper{
+    padding: 0 170px;
+    margin:20px 0 0 0;
+}
+table tr td:last-child{
+    text-align: center;
+}
+.ant-table-thead tr th:last-child{
+    text-align: center;
+}
+.ant-table-pagination.ant-pagination {
+    margin: 16px 15px;
+}
+.ant-tag{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 615px) {
+    .table-wrapper{
+        padding: 0 0
+    }
+    .ant-table-wrapper .ant-pagination{
+
+    }
+}
+@media screen and (max-width: 1024px) {
+    .table-wrapper{
+        padding: 0 20px;
+    }
+}
